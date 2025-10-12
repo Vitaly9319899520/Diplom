@@ -7,7 +7,7 @@ def index(request):
         "main/index.html",
         context={
             "title": "Home-Главная",
-            "content": "Пекарня <br> В лаборатории у Бусинки",
+            "content": 'Пекарня <br> В лаборатории у Бусинки',
         },
     )
 
