@@ -1,0 +1,170 @@
+[
+{
+    "model": "goods.products",
+    "pk": 1,
+    "fields": {
+        "name": "Чайный столик и три стула",
+        "slug": "chajnyj-stolik-i-tri-stula",
+        "description": "описание измененено",
+        "image": "goods_images/belyi-kremovyi-tort-ukrasennyi-figami-i-vinogradom.jpg",
+        "price": "150.00",
+        "discount": "0.00",
+        "quantity": 10,
+        "category": 3
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 2,
+    "fields": {
+        "name": "Чайный столик и два стула",
+        "slug": "chajnyj-stolik-i-dva-stula",
+        "description": "Набор из стола и двух стульев в минималистическом стиле.",
+        "image": "",
+        "price": "93.00",
+        "discount": "0.00",
+        "quantity": 2,
+        "category": 4
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 3,
+    "fields": {
+        "name": "Двухспальная кровать",
+        "slug": "dvuhspalnaya-krovat",
+        "description": "Кровать двухспальная с надголовником и вообще очень ортопедичная.",
+        "image": "",
+        "price": "670.00",
+        "discount": "0.00",
+        "quantity": 0,
+        "category": 7
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 4,
+    "fields": {
+        "name": "Кухонный стол с раковиной",
+        "slug": "kuhonnyj-stol-s-rakovinoj",
+        "description": "Кухонный стол для обеда с встроенной раковиной и стульями.",
+        "image": "",
+        "price": "365.00",
+        "discount": "0.00",
+        "quantity": 2,
+        "category": 3
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 5,
+    "fields": {
+        "name": "Кухонный стол с встройкой",
+        "slug": "kuhonnyj-stol-s-vstrojkoj",
+        "description": "Кухонный стол со встроенной плитой и раковиной. Много полок и вообще красивый.",
+        "image": "",
+        "price": "430.00",
+        "discount": "0.00",
+        "quantity": 1,
+        "category": 3
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 6,
+    "fields": {
+        "name": "Прикроватный столик",
+        "slug": "prikrovatnyj-stolik",
+        "description": "Прикроватный столик",
+        "image": "",
+        "price": "55.00",
+        "discount": "0.00",
+        "quantity": 1,
+        "category": 4
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 7,
+    "fields": {
+        "name": "Диван обыкновенный",
+        "slug": "divan-obyknovennyj",
+        "description": "Диван, он же софа обыкновенная, ничего примечательного для описания.",
+        "image": "goods_images/sladkie-vanil-nye-keksy-s-nacinkoi-iz-agodnogo-dzema-i-syrnym-kremom-ukrase_Zp7wcHa.jpg",
+        "price": "190.00",
+        "discount": "0.00",
+        "quantity": 7,
+        "category": 7
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 8,
+    "fields": {
+        "name": "Стул офисный",
+        "slug": "stul-ofisnyj",
+        "description": "Описание товара",
+        "image": "",
+        "price": "30.00",
+        "discount": "0.00",
+        "quantity": 3,
+        "category": 5
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 9,
+    "fields": {
+        "name": "Цветок стилизированный",
+        "slug": "cvetok-stilizirovannyj",
+        "description": "Цветок стилизированный",
+        "image": "goods_images/slivocnyi-pirog-v-sirenevom-s-rozovym-sirenevym-dekorom-i-vinogradom.jpg",
+        "price": "15.00",
+        "discount": "30.00",
+        "quantity": 0,
+        "category": 6
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 10,
+    "fields": {
+        "name": "Прикроватный столик2",
+        "slug": "prikrovatnyj-stolik2",
+        "description": "Прикроватный столик",
+        "image": "goods_images/belyi-tort-s-agodami-i-marakuiei-radom-s-rasteniem-na-belom-fone.jpg",
+        "price": "25.00",
+        "discount": "20.00",
+        "quantity": 23,
+        "category": 4
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 11,
+    "fields": {
+        "name": "Стул",
+        "slug": "stul",
+        "description": "Стул",
+        "image": "goods_images/belyi-tort-zalityi-sokoladom-i-ukrasennyi-raznym-pecen-em_r9AR8wR.jpg",
+        "price": "23.00",
+        "discount": "5.00",
+        "quantity": 1,
+        "category": 8
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 12,
+    "fields": {
+        "name": "Стол",
+        "slug": "stol",
+        "description": "стол",
+        "image": "goods_images/mentolovyi-tort-s-kivi-i-laimom.jpg",
+        "price": "32.00",
+        "discount": "10.00",
+        "quantity": 2,
+        "category": 8
+    }
+}
+]
