@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django.contrib.postgres",
     "debug_toolbar",
     "main",
     "goods",
@@ -82,8 +83,8 @@ WSGI_APPLICATION = "config.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "diplom",
-        "USER": "postgres",
+        "NAME": "home",
+        "USER": "home",
         "PASSWORD": "12345",
         "HOST": "localhost",
         "PORT": "5432",
