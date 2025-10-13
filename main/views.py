@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
+from main.models import AboutPage
+
 
 def index(request):
     return render(
@@ -13,12 +15,12 @@ def index(request):
 
 
 def about(request):
+    about_page = AboutPage.objects.first()
     return render(
         request,
         "main/about.html",
         context={
-            "title": "Home-О нас",
-            "content": "О нас",
-            "text_on_page": "Текст о магазине",
+            "title": about_page.title,
+            "content": about_page.content,
         },
     )

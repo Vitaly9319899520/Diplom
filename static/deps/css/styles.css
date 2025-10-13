@@ -3,3 +3,15 @@
     height: 265px; /* Установите нужную высоту */
     object-fit: cover; /* Это сохранит пропорции изображения */
 }
+
+.custom-text {
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.6; /* Увеличивает межстрочный интервал для лучшей читаемости */
+}
+
+.footer-custom {
+    padding-top: 1px; /* Изменение верхнего отступа */
+    padding-bottom: 1px; /* Изменение нижнего отступа */
