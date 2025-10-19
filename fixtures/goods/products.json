@@ -1,170 +1,212 @@
 [
 {
     "model": "goods.products",
-    "pk": 1,
+    "pk": 13,
     "fields": {
-        "name": "Чайный столик и три стула",
-        "slug": "chajnyj-stolik-i-tri-stula",
-        "description": "описание измененено",
-        "image": "goods_images/belyi-kremovyi-tort-ukrasennyi-figami-i-vinogradom.jpg",
-        "price": "150.00",
+        "name": "Булочка с творогом",
+        "slug": "bulochka-s-tvorogom",
+        "description": "<описание>",
+        "image": "goods_images/sladkie-bulocki-v-forme-rozy-na-derevannoi-servirovocnoi-doske_PvUHW2R.jpg",
+        "price": "5.00",
+        "discount": "10.00",
+        "quantity": 10,
+        "category": 9
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 14,
+    "fields": {
+        "name": "Булочка с коричей",
+        "slug": "bulochka-s-korichej",
+        "description": "<описание>",
+        "image": "goods_images/vid-speredi-koncepcii-vkusnyh-bulocek-s-koricei_pkwcOez.jpg",
+        "price": "7.00",
         "discount": "0.00",
         "quantity": 10,
-        "category": 3
+        "category": 9
     }
 },
 {
     "model": "goods.products",
-    "pk": 2,
+    "pk": 15,
     "fields": {
-        "name": "Чайный столик и два стула",
-        "slug": "chajnyj-stolik-i-dva-stula",
-        "description": "Набор из стола и двух стульев в минималистическом стиле.",
-        "image": "",
-        "price": "93.00",
+        "name": "Пышка",
+        "slug": "pyshka",
+        "description": "<описание>",
+        "image": "goods_images/zapolnennye-slivki-ponciki-so-slivocnym-kremom-i-saharnoi-pudroi-na-stole_DVGhPY8.jpg",
+        "price": "2.00",
+        "discount": "0.00",
+        "quantity": 5,
+        "category": 9
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 16,
+    "fields": {
+        "name": "Американо",
+        "slug": "amerikano",
+        "description": "<описание>",
+        "image": "goods_images/caska-kofe-krupnym-planom-s-vkusnym-pecen-em_qq2RC0q.jpg",
+        "price": "2.00",
+        "discount": "0.00",
+        "quantity": 20,
+        "category": 11
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 17,
+    "fields": {
+        "name": "Лимонад с апельсином",
+        "slug": "limonad-s-apelsinom",
+        "description": "<описание>",
+        "image": "goods_images/natural-naa-svezaa-voda-dla-detoksikacii-s-matoi-i-apel-sinom-v-tubikah-na-_JGA5bPM.jpg",
+        "price": "3.00",
+        "discount": "5.00",
+        "quantity": 20,
+        "category": 11
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 18,
+    "fields": {
+        "name": "Капучино",
+        "slug": "kapuchino",
+        "description": "<описание>",
+        "image": "goods_images/celovek-sluzit-caskoi-kofe_7EV8TYO.jpg",
+        "price": "4.00",
+        "discount": "0.00",
+        "quantity": 30,
+        "category": 11
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 19,
+    "fields": {
+        "name": "Паштет с морепродуктами",
+        "slug": "pashtet-s-moreproduktami",
+        "description": "<описание>",
+        "image": "goods_images/tunec-s-krekerom_Y40Jr4Z.jpg",
+        "price": "10.00",
+        "discount": "10.00",
+        "quantity": 50,
+        "category": 13
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 20,
+    "fields": {
+        "name": "Паштет белорусский",
+        "slug": "pashtet-belorusskij",
+        "description": "<описание>",
+        "image": "goods_images/zakroite-zakuski-zdorovye-nezdorovye_YW1RGcM.jpg",
+        "price": "10.00",
+        "discount": "0.00",
+        "quantity": 5,
+        "category": 13
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 21,
+    "fields": {
+        "name": "Паштет рубленный",
+        "slug": "pashtet-rublennyj",
+        "description": "<описание>",
+        "image": "goods_images/vkusnyi-recept-belogo-tunca-naturmort_W2Z4LNP.jpg",
+        "price": "9.00",
         "discount": "0.00",
         "quantity": 2,
-        "category": 4
+        "category": 13
     }
 },
 {
     "model": "goods.products",
-    "pk": 3,
+    "pk": 22,
     "fields": {
-        "name": "Двухспальная кровать",
-        "slug": "dvuhspalnaya-krovat",
-        "description": "Кровать двухспальная с надголовником и вообще очень ортопедичная.",
-        "image": "",
-        "price": "670.00",
-        "discount": "0.00",
-        "quantity": 0,
-        "category": 7
-    }
-},
-{
-    "model": "goods.products",
-    "pk": 4,
-    "fields": {
-        "name": "Кухонный стол с раковиной",
-        "slug": "kuhonnyj-stol-s-rakovinoj",
-        "description": "Кухонный стол для обеда с встроенной раковиной и стульями.",
-        "image": "",
-        "price": "365.00",
-        "discount": "0.00",
-        "quantity": 2,
-        "category": 3
-    }
-},
-{
-    "model": "goods.products",
-    "pk": 5,
-    "fields": {
-        "name": "Кухонный стол с встройкой",
-        "slug": "kuhonnyj-stol-s-vstrojkoj",
-        "description": "Кухонный стол со встроенной плитой и раковиной. Много полок и вообще красивый.",
-        "image": "",
-        "price": "430.00",
-        "discount": "0.00",
-        "quantity": 1,
-        "category": 3
-    }
-},
-{
-    "model": "goods.products",
-    "pk": 6,
-    "fields": {
-        "name": "Прикроватный столик",
-        "slug": "prikrovatnyj-stolik",
-        "description": "Прикроватный столик",
-        "image": "",
-        "price": "55.00",
-        "discount": "0.00",
-        "quantity": 1,
-        "category": 4
-    }
-},
-{
-    "model": "goods.products",
-    "pk": 7,
-    "fields": {
-        "name": "Диван обыкновенный",
-        "slug": "divan-obyknovennyj",
-        "description": "Диван, он же софа обыкновенная, ничего примечательного для описания.",
-        "image": "goods_images/sladkie-vanil-nye-keksy-s-nacinkoi-iz-agodnogo-dzema-i-syrnym-kremom-ukrase_Zp7wcHa.jpg",
-        "price": "190.00",
-        "discount": "0.00",
-        "quantity": 7,
-        "category": 7
-    }
-},
-{
-    "model": "goods.products",
-    "pk": 8,
-    "fields": {
-        "name": "Стул офисный",
-        "slug": "stul-ofisnyj",
-        "description": "Описание товара",
-        "image": "",
-        "price": "30.00",
+        "name": "Торт фруктовый",
+        "slug": "tort-fruktovyj",
+        "description": "<описание>",
+        "image": "goods_images/belyi-kremovyi-tort-ukrasennyi-figami-i-vinogradom_gJ9MtJA.jpg",
+        "price": "20.00",
         "discount": "0.00",
         "quantity": 3,
-        "category": 5
+        "category": 10
     }
 },
 {
     "model": "goods.products",
-    "pk": 9,
+    "pk": 23,
     "fields": {
-        "name": "Цветок стилизированный",
-        "slug": "cvetok-stilizirovannyj",
-        "description": "Цветок стилизированный",
-        "image": "goods_images/slivocnyi-pirog-v-sirenevom-s-rozovym-sirenevym-dekorom-i-vinogradom.jpg",
-        "price": "15.00",
-        "discount": "30.00",
-        "quantity": 0,
-        "category": 6
-    }
-},
-{
-    "model": "goods.products",
-    "pk": 10,
-    "fields": {
-        "name": "Прикроватный столик2",
-        "slug": "prikrovatnyj-stolik2",
-        "description": "Прикроватный столик",
-        "image": "goods_images/belyi-tort-s-agodami-i-marakuiei-radom-s-rasteniem-na-belom-fone.jpg",
-        "price": "25.00",
-        "discount": "20.00",
-        "quantity": 23,
-        "category": 4
-    }
-},
-{
-    "model": "goods.products",
-    "pk": 11,
-    "fields": {
-        "name": "Стул",
-        "slug": "stul",
-        "description": "Стул",
-        "image": "goods_images/belyi-tort-zalityi-sokoladom-i-ukrasennyi-raznym-pecen-em_r9AR8wR.jpg",
-        "price": "23.00",
+        "name": "Торт \"Прага\"",
+        "slug": "tort-praga",
+        "description": "<описание>",
+        "image": "goods_images/slivocnyi-pirog-v-sirenevom-s-rozovym-sirenevym-dekorom-i-vinogradom_A0bT07D.jpg",
+        "price": "10.00",
         "discount": "5.00",
-        "quantity": 1,
-        "category": 8
+        "quantity": 10,
+        "category": 10
     }
 },
 {
     "model": "goods.products",
-    "pk": 12,
+    "pk": 24,
     "fields": {
-        "name": "Стол",
-        "slug": "stol",
-        "description": "стол",
-        "image": "goods_images/mentolovyi-tort-s-kivi-i-laimom.jpg",
-        "price": "32.00",
-        "discount": "10.00",
+        "name": "Торт с орехами",
+        "slug": "tort-s-orehami",
+        "description": "<описание>",
+        "image": "goods_images/belyi-tort-zalityi-sokoladom-i-ukrasennyi-raznym-pecen-em_QNM4IaO.jpg",
+        "price": "10.00",
+        "discount": "0.00",
+        "quantity": 30,
+        "category": 10
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 25,
+    "fields": {
+        "name": "Хлеб бородинский",
+        "slug": "hleb-borodinskij",
+        "description": "<описание>",
+        "image": "goods_images/hleb-na-zakvaske-na-stole_Xuku4yP.jpg",
+        "price": "4.00",
+        "discount": "0.00",
         "quantity": 2,
-        "category": 8
+        "category": 12
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 26,
+    "fields": {
+        "name": "Чиабатта",
+        "slug": "chiabatta",
+        "description": "<описание>",
+        "image": "goods_images/razlicnye-vidy-hleba-i-zerna_1uVc295.jpg",
+        "price": "6.00",
+        "discount": "5.00",
+        "quantity": 5,
+        "category": 12
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 27,
+    "fields": {
+        "name": "Хлеб столичный",
+        "slug": "hleb-stolichnyj",
+        "description": "<описание>",
+        "image": "goods_images/organiceskii-cel-nozernovoi-hleb-ukrasennyi-zernovymi-kolos-ami_jOdSgrg.jpg",
+        "price": "3.00",
+        "discount": "0.00",
+        "quantity": 5,
+        "category": 12
     }
 }
 ]

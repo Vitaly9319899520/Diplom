@@ -1,17 +1,28 @@
 .product-image {
-    width: 265px; /* Установите нужную ширину */
-    height: 265px; /* Установите нужную высоту */
+    width: 317px; /* Установите нужную ширину */
+    height: 300px; /* Установите нужную высоту */
     object-fit: cover; /* Это сохранит пропорции изображения */
 }
 
 .custom-text {
-  font-family: 'Arial', sans-serif;
-  font-style: italic;
-  font-size: 1.2em;
-  color: #333;
-  line-height: 1.6; /* Увеличивает межстрочный интервал для лучшей читаемости */
-}
+    font-family: 'Arial';
+    color: white;
+    background-color: #f9f9f9; /* Цвет фона, который вы хотите использовать */
+    padding: 10px; /* Отступы, если они необходимы */
+    border-radius: 5px; /* Закругление углов */
+
 
 .footer-custom {
     padding-top: 1px; /* Изменение верхнего отступа */
     padding-bottom: 1px; /* Изменение нижнего отступа */
+
+.text-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+
+
+

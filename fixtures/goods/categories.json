@@ -9,50 +9,50 @@
 },
 {
     "model": "goods.categories",
-    "pk": 3,
+    "pk": 9,
     "fields": {
-        "name": "Кухня",
-        "slug": "kuhnya"
+        "name": "Булочки",
+        "slug": "bulochki"
     }
 },
 {
     "model": "goods.categories",
-    "pk": 4,
+    "pk": 10,
     "fields": {
-        "name": "Спальня",
-        "slug": "spalnya"
+        "name": "Торты",
+        "slug": "torty"
     }
 },
 {
     "model": "goods.categories",
-    "pk": 5,
+    "pk": 11,
     "fields": {
-        "name": "Декор",
-        "slug": "dekor"
+        "name": "Напитки",
+        "slug": "napitki"
     }
 },
 {
     "model": "goods.categories",
-    "pk": 6,
+    "pk": 12,
     "fields": {
-        "name": "Фурнитура",
-        "slug": "furnitura"
+        "name": "Хлеб",
+        "slug": "hleb"
     }
 },
 {
     "model": "goods.categories",
-    "pk": 7,
+    "pk": 13,
     "fields": {
-        "name": "Офис",
-        "slug": "ofis"
+        "name": "Паштет",
+        "slug": "pashtet"
     }
 },
 {
     "model": "goods.categories",
-    "pk": 8,
+    "pk": 14,
     "fields": {
-        "name": "Гостинная",
-        "slug": "gostinnaya"
+        "name": "Пирожное",
+        "slug": "pirozhnoe"
     }
 }
 ]
