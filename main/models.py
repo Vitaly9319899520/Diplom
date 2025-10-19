@@ -7,3 +7,17 @@ class AboutPage(models.Model):
 
     def __str__(self):
         return self.title
+
+class AboutDelivery(models.Model):
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+
+    def __str__(self):
+        return self.title
+
+class AboutContact(models.Model):
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+
+    def __str__(self):
+        return self.title
