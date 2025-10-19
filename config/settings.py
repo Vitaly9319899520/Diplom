@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 from django.conf.global_settings import (
     STATICFILES_DIRS,
     MEDIA_URL,
