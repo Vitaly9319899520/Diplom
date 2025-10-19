@@ -17,7 +17,7 @@ from django.conf.global_settings import (
     STATICFILES_DIRS,
     MEDIA_URL,
     MEDIA_ROOT,
-    AUTH_USER_MODEL,
+    AUTH_USER_MODEL, STATIC_ROOT,
 )
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -33,7 +33,7 @@ SECRET_KEY = "django-insecure-5w-rke5o5k8d8dzo2adq25kgf4y1s%p=^ov5=qvskwj%bj_p88
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -148,9 +148,17 @@ AUTH_USER_MODEL = "users.User"
 
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 INTERNAL_IPS = [
     # ...
     "127.0.0.1",
     # ...
 ]
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.redis.RedisCache',
+        'LOCATION': 'redis://redis:6379/1'
+    }
+}
