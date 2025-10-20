@@ -33,7 +33,7 @@ services:
       - ./.env
 
   redis:
-    image: redis7
+    image: redis:7
     volumes:
       - redis_data:/data
     env_file:
