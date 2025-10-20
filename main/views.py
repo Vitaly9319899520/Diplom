@@ -25,16 +25,17 @@ def about(request):
         },
     )
 
+
 def delivery(request):
-        about_delivery = AboutDelivery.objects.first()
-        return render(
-            request,
-            "main/delivery.html",
-            context={
-                "title": about_delivery.title,
-                "content": about_delivery.content,
-            },
-        )
+    about_delivery = AboutDelivery.objects.first()
+    return render(
+        request,
+        "main/delivery.html",
+        context={
+            "title": about_delivery.title,
+            "content": about_delivery.content,
+        },
+    )
 
 
 def contact(request):

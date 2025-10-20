@@ -1,4 +1,4 @@
-from django.contrib import auth,messages
+from django.contrib import auth, messages
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
@@ -53,8 +53,10 @@ def profile(request):
     context = {"title": "Home - Кабинет", "form": form}
     return render(request, "users/profile.html", context)
 
+
 def users_cart(request):
-    return render(request, 'users/users_cart.html')
+    return render(request, "users/users_cart.html")
+
 
 @login_required
 def logout(request):
