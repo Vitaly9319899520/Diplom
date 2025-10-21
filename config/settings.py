@@ -6,15 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
-from django.conf.global_settings import (
-    STATICFILES_DIRS,
-    MEDIA_URL,
-    MEDIA_ROOT,
-    AUTH_USER_MODEL,
-    STATIC_ROOT,
-)
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -159,9 +150,9 @@ CACHES = {
     }
 }
 
-if 'test' in sys.argv:
+if "test" in sys.argv:
     DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
         }
     }
