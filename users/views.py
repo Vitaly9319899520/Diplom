@@ -1,9 +1,8 @@
-from django.contrib import auth, messages
+from django.contrib import auth
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
 from django.urls import reverse
-from pyexpat.errors import messages
 
 from users.forms import UserRegistrationForm, UserLoginForm, ProfileForm
 
