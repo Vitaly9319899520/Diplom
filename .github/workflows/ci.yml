@@ -90,7 +90,7 @@ jobs:
 
       - name: Deploy to server
         run: |
-          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
+          ssh -o StrictHostKeyChecking=no test@158.160.190.252 << 'EOF'
           docker push ${{ secrets.DOCKER_USERNAME }}/hab:${{ github.sha }}
           docker stop hab || true
           docker rm hab || true
