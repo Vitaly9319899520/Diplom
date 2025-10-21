@@ -25,7 +25,7 @@ ENV CELERY_BROKER_URL="redis://redis:6379/0"
 ENV CELERY_BACKEND="redis://redis:6379/0"
 
 # Создаем директорию для медиафайлов
-RUN mkdir -p /app/media
+RUN mkdir -p /app/staticfiles && chmod -R 755 /app/staticfiles
 
 EXPOSE 8000
-CMD ["python","manage.py", "runserver","0.0.0.0:8000"]
+CMD ["sh", "-c", "python manage.py collectstatic --noinput && gunicorn config.wsgi:application --bild 0.0.0.0:8000"]
