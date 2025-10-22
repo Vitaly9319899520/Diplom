@@ -96,4 +96,3 @@ jobs:
           docker rm hab || true
           docker run -d --name hab -p 80:8000 ${{ secrets.DOCKER_USERNAME }}/hab:${{ github.sha }}
           EOF
-          
